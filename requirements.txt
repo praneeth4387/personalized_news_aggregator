@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+fastapi==0.114.2
+gensim==4.3.3
+nltk==3.9.1
+pandas==2.2.2
+Requests==2.32.3
+selenium==4.24.0
+spacy==3.7.6
+uvicorn==0.30.6
