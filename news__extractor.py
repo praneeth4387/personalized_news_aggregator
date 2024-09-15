@@ -104,4 +104,4 @@ driver.quit()
 
 # Convert the dictionary to a DataFrame and save to CSV
 df__csv = pd.DataFrame(dct__df).drop_duplicates(subset=['title', 'summary', 'url']).reset_index(drop=True)
-df__csv.to_csv('news_art.csv', index=False)
+df__csv.to_csv('news_articles.csv', index=False)
