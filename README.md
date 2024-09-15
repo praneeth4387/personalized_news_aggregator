@@ -5,7 +5,6 @@ The Personalized News Aggregator is designed to collect, categorize, and serve n
 This project scrapes news articles from multiple sources, processes and stores them, and provides an interface for users to search and interact with the news data. The application features web scraping, data preprocessing, and API integration for serving news data.
 # Key Features
 Web Scraping: Collects news articles from BBC and CNN.  
-
 Data Preprocessing: Summarizes and categorizes articles using NLP techniques.
 API Endpoints: Provides endpoints for retrieving and searching articles.
 Web Interface: Offers a simple web UI for interaction.
