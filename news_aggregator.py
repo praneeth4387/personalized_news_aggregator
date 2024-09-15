@@ -6,7 +6,7 @@ import json
 
 app = FastAPI()
 
-df_dct = pd.read_csv('news_art.csv').to_dict(orient='index')
+df_dct = pd.read_csv('news_articles.csv').to_dict(orient='index')
 
 @app.get("/")
 def read_root():
