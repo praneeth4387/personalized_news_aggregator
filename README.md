@@ -43,5 +43,5 @@ Parameters:
 key (str): The field to search (e.g., title, summary, category).  
 value (str): The search term.  
 Response: JSON content of matching articles  
-# execution video :  
+# Execution video :  
 "https://drive.google.com/file/d/1FD6xD5A1Vi4OscsMOUsHsZc4x3TCAbOB/view?usp=drive_link"
