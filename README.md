@@ -1,4 +1,4 @@
-# personalized_news_aggregator
+# Personalized News Aggregator
 # Introduction
 The Personalized News Aggregator is designed to collect, categorize, and serve news articles from various sources like BBC and CNN. It allows users to retrieve articles based on specific filters and displays the news in a structured manner using FastAPI.  
 # Project Overview  
@@ -43,3 +43,5 @@ Parameters:
 key (str): The field to search (e.g., title, summary, category).  
 value (str): The search term.  
 Response: JSON content of matching articles  
+# execution video :  
+"https://drive.google.com/file/d/1FD6xD5A1Vi4OscsMOUsHsZc4x3TCAbOB/view?usp=drive_link"
