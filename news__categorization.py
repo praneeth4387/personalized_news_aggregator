@@ -60,7 +60,7 @@ def categorize_by_keywords(preprocessed_text):
     return "other"  # No match found
 
 # Load the CSV file
-df = pd.read_csv('news_art.csv')
+df = pd.read_csv('news_articles.csv')
 
 # Process each article in the CSV
 categories = []
@@ -94,5 +94,5 @@ for summary in df['summary']:
 
 # Add the categories back to the DataFrame and save to CSV
 df['category'] = categories
-df.to_csv('news_art.csv', index=False)
+df.to_csv('news_articles.csv', index=False)
 print("CSV updated with predicted categories.")
